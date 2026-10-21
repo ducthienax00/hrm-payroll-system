@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Docker volume local files
+pgdata/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# AI Agent & Internal configs
+AGENT.md
+.agents/
+
